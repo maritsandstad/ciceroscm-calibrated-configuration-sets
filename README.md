@@ -2,11 +2,16 @@
 
 Data repository for ciceroscm calibrated configuration sets and calibrated ensembles
 
-Datasets are calibrated using the cscm-calibrate setup https://doi.org/10.5281/zenodo.20497648
-
 The configuration file `config_file.json` is used to define and run the calibration, and the resulting ensemble is defined in the `calibrated_ciceroscm_ensemble.json`
 
-The current version was calibrated for RCMIP phase III to run with ciceroscm v.2.1.1 https://doi.org/10.5281/zenodo.20506335 .
+The current version was calibrated for RCMIP phase III to run with ciceroscm v.2.1.3 https://doi.org/10.5281/zenodo.23401839.
+
+Ensemble files in the `calibrated_ensembles` folder are ensembles calibrated for, used and described in the paper:
+`Pattern effects shift climate sensitivity constraints in simple climate models` Sandstad et al 2026 in prep. The
+filenames correspond to the various calibration setups as described there.
+
+Default dataset was calibrated using the cscm-calibrate setup https://doi.org/10.5281/zenodo.20497648
+Updated calibrations in the `calibrated_ensembles` folder were calibrated using an enhanced and updated version of that https://doi.org/10.5281/zenodo.23395267 
 
 
 ## Driver files
